@@ -33,7 +33,7 @@
         	padding: 19px 29px 29px;
         	margin: 0 auto 20px;
         	background-color: #fff;
-        	border: 1px solid #e5e5e5;
+        	border: 5px solid yellow;
         	-webkit-border-radius: 5px;
           	-moz-border-radius: 5px;
          	border-radius: 5px;
@@ -67,14 +67,14 @@
 	<div class="row" ng-controller="machoice">
   		<div class="col-md-6">
   			<a href="bde.html">
-  				<div class="form-choice bde" ng-show="bdelogoSmall">
+  				<div class="form-choice bde" ng-mouseenter="showEtHideBDE()" ng-show="bdelogoSmall">
   					<h2 class="form-choice-heading">BDE</h2>
   					<br>
   					<img src="img/logo_bde.png">
   					<br>
   					<h4>Les articles de BDE</h4>
   				</div>
-  				<div class="form-choice-large bde" ng-show="bdelogoLarge">
+  				<div class="form-choice-large bde" ng-mouseleave="showEtHideBDE()" ng-show="bdelogoLarge">
   					<h1 class="form-choice-heading">BDE</h1>
   					<br>
   					<img src="img/logo_bde.png">
@@ -86,14 +86,14 @@
 	  	</div>
   		<div class="col-md-6">
   			<a href="tse.html">
-				<div class="form-choice tse" ng-show="tselogoSmall">
+				<div class="form-choice tse" ng-mouseenter="showEtHideTSE()" ng-show="tselogoSmall">
 					<h2 class="form-signin-heading">TSE</h2>
 					<br>
 					<img src="img/logo_tse.png">
 					<br>
 					<h4>Les articles de tous les utilisateurs.</h4>
 				</div>
-				<div class="form-choice-large tse" ng-show="tselogoLarge">
+				<div class="form-choice-large tse" ng-mouseleave="showEtHideTSE()" ng-show="tselogoLarge">
 					<h1 class="form-signin-heading">TSE</h1>
 					<br>
 					<img src="img/logo_tse.png">
