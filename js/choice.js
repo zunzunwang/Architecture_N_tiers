@@ -16,4 +16,14 @@ direction.controller('machoice',['$scope',function($scope,Data){
 		$scope.tselogoLarge = !$scope.tselogoLarge;
 	};
 
+	$scope.refreshBDE = function(){
+		// window.open("bde.html");
+		window.location = "bde.html"; 
+	}
+
+	$scope.refreshTSE = function(){
+		// window.open("tse.html");  
+		window.location = "tse.html";
+	}
+
 }]);
