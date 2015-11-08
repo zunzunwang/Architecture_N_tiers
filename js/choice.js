@@ -1,5 +1,5 @@
-var direction = angular.module('choice',[]);
-direction.controller('machoice',['$scope',function($scope,Data){
+var boutique = angular.module('Boutique',[]);
+boutique.controller('machoice',['$scope',function($scope,Data){
 
 	$scope.bdelogoSmall = true;
 	$scope.tselogoSmall = true;
