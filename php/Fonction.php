@@ -26,6 +26,7 @@ if (function_exists("myfunction")){
 	echo "no";
 }
 
+echo "hello";
 	
 	
 
