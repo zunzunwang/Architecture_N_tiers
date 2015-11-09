@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Boutique en Ligne</title>
-    <script src="..\js\angular.js"></script>
-    <script src="..\js\angular-ui-bootstrap.js"></script>
-    <script src="..\js\angular-ui-route.js"></script>
-    <script src="..\app.js"></script>
-    <script type="..\js\animation.js"></script>
-		<link rel="stylesheet" type="text/css" href="..\css\bootstrap.css">
+    <script src="../js/angular.js"></script>
+    <script src="../js/angular-ui-bootstrap.js"></script>
+    <script src="../js/angular-ui-route.js"></script>
+    <script src="../app.js"></script>
+    <script type="../js/animation.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
 
     <style type="text/css">
       body {
@@ -104,7 +104,7 @@
     </div>
 
     <div id="total"   ng-controller="showHide">
-<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\start of the second control/////////////////////////////////////////// -->
+<!-- ////////////////////////////////////////start of the second control/////////////////////////////////////////// -->
       <div id="headImg" ng-controller="imageChanged" ng-show="slidesLooping">
       
         <div id="imgLoop">
@@ -124,9 +124,9 @@
 
       <div style='background:{{backgroundColor}}'>
         <pre id="date">Today is: <em>{{dt | date:'fullDate' }}</em></pre>
-        <img id="hide" type="button" src="..\img\hide.png" ng-show="hideImg" ng-click="showEtHide()" />
-        <img id="show" type="button" src="..\img\show.png" ng-show="showImg" ng-click="showEtHide()" />
-        <!-- <img id="backgroundColor" type="button" src="img\bg.png" ng-click="backcolor()" ng-dblclick="returnWhite()"/> -->
+        <img id="hide" type="button" src="../img/hide.png" ng-show="hideImg" ng-click="showEtHide()" />
+        <img id="show" type="button" src="../img/show.png" ng-show="showImg" ng-click="showEtHide()" />
+        <!-- <img id="backgroundColor" type="button" src="img/bg.png" ng-click="backcolor()" ng-dblclick="returnWhite()"/> -->
         <div><br/></dir>
       </div>
       
